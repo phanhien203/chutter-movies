@@ -1,0 +1,127 @@
+.baselist {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .genre {
+        width: 400px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        font-size: 25px;
+        color: #4e3a26;
+        font-weight: 950;
+        background-image: linear-gradient(120deg, #ffffffad, #ffffff00);
+    }
+
+    .items-content-genre {
+
+        .genres {
+            width: 400px;
+            height: 50px;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            color: #f1b722;
+            font-weight: 950;
+            text-transform: uppercase;
+            line-height: 38px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        } 
+
+    
+    }
+
+    .items-content {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;   
+        background-color: #0b2535;
+        border: black 2px solid ;
+        border-radius: 15px;
+        padding:  20px 0;
+        margin-bottom: 30px;
+        
+        
+        .item-movies {  
+            position: relative;
+            margin: 10px;
+
+            .rated {                        
+                position: absolute;
+                top: -7px;
+                left: -7px;
+
+                height: 40px;
+                width: 40px;                       
+                background-color: #f1b722;
+
+                font-size: 15px;
+                font-family: cursive;
+                color: #fff;
+
+                border-radius: 40px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+            .item-data {
+                text-align: center;
+                width: 180px;
+                font-weight: 700;
+                text-overflow: ellipsis;
+                font-size: 18px;
+                font-family: 'Courier New', Courier, monospace;  
+            }
+
+            .poster-hover {
+                padding: 0px;
+                position: relative;
+                width: 180px;
+                height: 250px;
+            }
+            .poster {
+                position: relative;
+                border-radius: 10px;
+                transition: transform 0.25s;
+                width: 180px;
+                height: 250px;
+                background-size: 180px 250px;
+                border: 1px solid #4e3a26;
+                object-fit: cover;
+            }
+
+            .poster:hover {
+                transform: scale(1.03);
+            }
+
+            .background {
+                position: absolute;
+                border-radius: 10px;
+                transition: transform 0.25s;
+                width: 180px;
+                height: 250px;
+                background-color: grey;
+                border: 1px solid #4e3a26;
+            }
+        }
+    }
+
+    .numpage{
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .page {
+        margin: 5px;                
+    }
+}

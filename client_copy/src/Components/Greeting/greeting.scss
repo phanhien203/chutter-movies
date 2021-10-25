@@ -1,0 +1,21 @@
+.greeting {
+    height: 300px;
+    width: 80vw;
+    min-width: 900px;
+    margin: 0 auto;
+    background: rgba(17, 62, 88, 0.856) 
+                url("https://www.mysticwaffle.com/articles/movies-sci-fi/img/sci-fi-movies.jpg");
+    background-blend-mode: exclusion;
+
+    color: white;  
+
+    .welcome {
+        margin: 0px 0px 0px 100px;
+        padding-top: 30px;
+        font-size: 4.5rem;
+    }
+
+    .wel {
+        margin-left: 100px;
+    }
+}
