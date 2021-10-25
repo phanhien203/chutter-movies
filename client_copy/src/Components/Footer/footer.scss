@@ -1,0 +1,14 @@
+.footer {
+    position: relative;
+    z-index: 0;
+    height: 50px;
+    width: 100%;
+    color: #f1b722;
+    font-size: 16px;
+    border-top: 2px solid rgba(255, 255, 255, 0.308);
+
+    .text {
+        margin-top: 20px;
+        text-align: center;
+    }
+}

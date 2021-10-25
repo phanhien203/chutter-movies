@@ -1,0 +1,51 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+
+  position: relative;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #081b27;
+
+  font-size: 16px;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  min-height: calc(100vh - 112px);
+  position: relative;
+  margin: 0;
+}
+
+li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(119, 119, 119, 0.719);
+  cursor: pointer;
+}
+  
+
+  
+::-webkit-scrollbar {
+  width: 10px;
+  position: absolute;
+  top: 60px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  cursor: pointer;
+}
+  
+::-webkit-scrollbar-thumb {    
+  background-color: rgba(192, 191, 191, 0.726);
+  border-radius: 5px;
+  cursor: pointer;
+} 
